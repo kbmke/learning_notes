@@ -1,1 +1,11 @@
 /** @format */
+:root {
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+  font-family: "Bitcount Prop Single", system-ui;
+}
