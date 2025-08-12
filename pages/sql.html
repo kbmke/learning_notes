@@ -17,5 +17,116 @@
       <li>Queries and Joins</li>
       <li>Indexes and Optimization</li>
     </ul>
+    <section class="database">
+      <h2>Database Basics</h2>
+      <p>
+        A database is an organized collection of data, generally stored and
+        accessed electronically from a computer system. Databases are used to
+        store, manage, and retrieve data efficiently.
+      </p>
+      <h3>Types of Databases</h3>
+      <ul>
+        <li>
+          <strong>Relational Databases:</strong> Use tables to represent data
+          and relationships between data. Examples include MySQL, PostgreSQL,
+          and SQLite.
+        </li>
+        <li>
+          <strong>NoSQL Databases:</strong> Designed for unstructured data and
+          can handle large volumes of data. Examples include MongoDB, Cassandra,
+          and Redis.
+        </li>
+        <li>
+          <strong>In-Memory Databases:</strong> Store data in memory for faster
+          access. Examples include Redis and Memcached.
+        </li>
+      </ul>
+      <h3>Database Management Systems (DBMS)</h3>
+      <p>
+        A DBMS is software that interacts with the user, applications, and the
+        database itself to capture and analyze data. It provides tools for
+        defining, creating, querying, updating, and administering databases.
+      </p>
+    </section>
+    <section class="syntax">
+      <h2>SQL Syntax</h2>
+      <p>
+        SQL (Structured Query Language) is the standard language for managing
+        and manipulating relational databases. It consists of various commands
+        and clauses to perform different operations on the data.
+      </p>
+      <h3>Basic SQL Commands</h3>
+      <ul>
+        <li>
+          <strong>SELECT:</strong> Retrieves data from one or more tables.
+        </li>
+        <li><strong>INSERT:</strong> Adds new records to a table.</li>
+        <li><strong>UPDATE:</strong> Modifies existing records in a table.</li>
+        <li><strong>DELETE:</strong> Removes records from a table.</li>
+        <li><strong>CREATE:</strong> Creates a new table or database.</li>
+        <li><strong>ALTER:</strong> Modifies an existing table structure.</li>
+        <li><strong>DROP:</strong> Deletes a table or database.</li>
+      </ul>
+      <h3>SQL Clauses</h3>
+      <ul>
+        <li>
+          <strong>WHERE:</strong> Filters records based on specified conditions.
+        </li>
+        <li>
+          <strong>ORDER BY:</strong> Sorts the result set in ascending or
+          descending order.
+        </li>
+        <li>
+          <strong>GROUP BY:</strong> Groups rows that have the same values in
+          specified columns into summary rows.
+        </li>
+        <li>
+          <strong>HAVING:</strong> Filters groups based on specified conditions
+          (used with GROUP BY).
+        </li>
+        <li>
+          <strong>JOIN:</strong> Combines rows from two or more tables based on
+          a related column between them.
+        </li>
+      </ul>
+    </section>
+    <section class="queries">
+      <h2>Queries and Joins</h2>
+      <p>
+        Queries are used to retrieve specific data from a database. Joins are
+        used to combine rows from two or more tables based on a related column
+        between them.
+      </p>
+      <h3>Types of Joins</h3>
+      <ul>
+        <li>
+          <strong>INNER JOIN:</strong> Returns records that have matching values
+          in both tables.
+        </li>
+        <li>
+          <strong>LEFT JOIN (or LEFT OUTER JOIN):</strong> Returns all records
+          from the left table and the matched records from the right table. If
+          there is no match, NULL values are returned for columns from the right
+          table.
+        </li>
+        <li>
+          <strong>RIGHT JOIN (or RIGHT OUTER JOIN):</strong> Returns all records
+          from the right table and the matched records from the left table. If
+          there is no match, NULL values are returned for columns from the left
+          table.
+        </li>
+        <li>
+          <strong>FULL JOIN (or FULL OUTER JOIN):</strong> Returns all records
+          when there is a match in either left or right table. If there is no
+          match, NULL values are returned for columns from the table without a
+          match.
+        </li>
+        <li>
+          <strong>CROSS JOIN:</strong> Returns the Cartesian product of both
+          tables, combining each row from the first table with every row from
+          the second table.
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
